@@ -1,0 +1,24 @@
+{
+  "name": "test-npm",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Angular"
+  },
+  "author": "Sathishkumar Dharmalingam",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-latest-node": "^5.5.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-stage-0": "^7.8.3"
+  }
+}
